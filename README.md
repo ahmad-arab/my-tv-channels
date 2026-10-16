@@ -39,7 +39,7 @@ When a stream stops working, fix its URL here. No app rebuild needed; the change
 | `name` | Shown in the app's side menu |
 
 The side menu shows groups in this order (after Search, Favorites and All channels). Groups with no channels are hidden.
-Known ids get a matching icon: `kurdish`, `arabic`, `english`, `news`, `documentary`, `movies`, `entertainment`, `religious`.
+Known ids get a matching icon: `kurdish`, `arabic`, `english`, `syrian`, `news`, `documentary`, `movies`, `entertainment`, `kids`, `sports`, `religious`, `music`.
 
 ### Channels
 
@@ -54,6 +54,8 @@ Known ids get a matching icon: `kurdish`, `arabic`, `english`, `news`, `document
 ## Tips
 
 - Test a new URL in **VLC** first (Media → Open Network Stream).
-- Only add official, free streams. Re-broadcasts of paid channels are illegal and break all the time.
-- Good place to find streams and logos: [iptv-org/iptv](https://github.com/iptv-org/iptv/tree/master/streams) and its [API](https://github.com/iptv-org/api) (`logos.json`).
+- Only add official, free streams. Re-broadcasts of paid channels (beIN, OSN, HBO, Sky Sports, ...) are illegal and break all the time.
+- `http://` streams work too (some regional broadcasters still use plain http).
+- Streams that need special HTTP headers (Referer, User-Agent) are not supported by the app.
+- Good place to find streams and logos: [iptv-org/iptv](https://github.com/iptv-org/iptv/tree/master/streams) and its [API](https://github.com/iptv-org/api) (`logos.json`), plus [Free-TV/IPTV](https://github.com/Free-TV/IPTV) (curated legal channels by country).
 - Check the JSON is valid before committing (a missing comma breaks the whole list), e.g. with [jsonlint.com](https://jsonlint.com).
