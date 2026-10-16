@@ -46,7 +46,8 @@
         "https://live.rudaw.net/hls/rudaw-tv/master.m3u8",
         "https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8"
       ],
-      "logo": "https://i.imgur.com/Zo3IWOn.png"
+      "logo": "https://i.imgur.com/Zo3IWOn.png",
+      "logoBackground": "dark"
     },
     {
       "id": "kurdistan24",
@@ -82,7 +83,8 @@
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8"
       ],
-      "logo": "https://i.imgur.com/UAbSwYA.png"
+      "logo": "https://i.imgur.com/UAbSwYA.png",
+      "logoBackground": "dark"
     },
     {
       "id": "kurdistan-tv",
@@ -240,7 +242,8 @@
       "urls": [
         "https://avr.host247.net/live/emantv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/QmgaPSi.png"
+      "logo": "https://i.imgur.com/QmgaPSi.png",
+      "logoBackground": "dark"
     },
     {
       "id": "kurd-channel",
@@ -303,7 +306,8 @@
         "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8"
       ],
-      "logo": "https://i.imgur.com/De4SEWE.png"
+      "logo": "https://i.imgur.com/De4SEWE.png",
+      "logoBackground": "dark"
     },
     {
       "id": "alarabiya",
@@ -353,7 +357,8 @@
       "urls": [
         "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/YMqWEe4.png"
+      "logo": "https://i.imgur.com/YMqWEe4.png",
+      "logoBackground": "dark"
     },
     {
       "id": "al-iraqia-news",
@@ -450,7 +455,8 @@
       "urls": [
         "https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8"
       ],
-      "logo": "https://i.imgur.com/v6VsFEt.png"
+      "logo": "https://i.imgur.com/v6VsFEt.png",
+      "logoBackground": "dark"
     },
     {
       "id": "asharq-discovery",
@@ -462,7 +468,8 @@
       "urls": [
         "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8"
       ],
-      "logo": "https://i.imgur.com/Czxi7yk.png"
+      "logo": "https://i.imgur.com/Czxi7yk.png",
+      "logoBackground": "dark"
     },
     {
       "id": "al-arabiya-programs",
@@ -630,7 +637,8 @@
       "urls": [
         "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/HPVsIa4.png"
+      "logo": "https://i.imgur.com/HPVsIa4.png",
+      "logoBackground": "dark"
     },
     {
       "id": "iqraa-quran",
@@ -642,7 +650,8 @@
       "urls": [
         "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/HPVsIa4.png"
+      "logo": "https://i.imgur.com/HPVsIa4.png",
+      "logoBackground": "dark"
     },
     {
       "id": "iqraa-europe-and-africa",
@@ -654,7 +663,8 @@
       "urls": [
         "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/nUlZvSe.png"
+      "logo": "https://i.imgur.com/nUlZvSe.png",
+      "logoBackground": "dark"
     },
     {
       "id": "bahrain-quran",
@@ -702,7 +712,8 @@
       "urls": [
         "https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/NIVhISa.png"
+      "logo": "https://i.imgur.com/NIVhISa.png",
+      "logoBackground": "dark"
     },
     {
       "id": "movies-thriller",
@@ -752,7 +763,8 @@
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8"
       ],
-      "logo": "https://i.imgur.com/BcXASJp.png"
+      "logo": "https://i.imgur.com/BcXASJp.png",
+      "logoBackground": "dark"
     },
     {
       "id": "mbc-drama",
@@ -765,7 +777,8 @@
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8"
       ],
-      "logo": "https://i.imgur.com/g5PWnqp.png"
+      "logo": "https://i.imgur.com/g5PWnqp.png",
+      "logoBackground": "dark"
     },
     {
       "id": "bbc-earth",
@@ -789,7 +802,8 @@
       "urls": [
         "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/x57klfS.png"
+      "logo": "https://i.imgur.com/x57klfS.png",
+      "logoBackground": "dark"
     },
     {
       "id": "documentary-plus-international",
@@ -801,7 +815,8 @@
       "urls": [
         "https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/x57klfS.png"
+      "logo": "https://i.imgur.com/x57klfS.png",
+      "logoBackground": "dark"
     },
     {
       "id": "history-hit",
@@ -813,7 +828,8 @@
       "urls": [
         "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/ulHoqlP.png"
+      "logo": "https://i.imgur.com/ulHoqlP.png",
+      "logoBackground": "dark"
     },
     {
       "id": "autentic-history",
@@ -837,7 +853,8 @@
       "urls": [
         "https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg00735-videosolutionsa-wedobigdocs-ono/playlist.m3u8"
       ],
-      "logo": "https://provider-static.plex.tv/epg/cms/production/49cf6309-0a4a-4d39-bdcc-fa48e4ef84a7/WEDOBIGSTORIES_LIGHTTHEME_-_Sorin_Stoian.png"
+      "logo": "https://provider-static.plex.tv/epg/cms/production/49cf6309-0a4a-4d39-bdcc-fa48e4ef84a7/WEDOBIGSTORIES_LIGHTTHEME_-_Sorin_Stoian.png",
+      "logoBackground": "dark"
     },
     {
       "id": "docubay",
@@ -873,7 +890,8 @@
       "urls": [
         "https://bloomberg.com/media-manifest/streams/qt.m3u8"
       ],
-      "logo": "https://provider-static.plex.tv/epg/cms/production/a69341a2-fce3-4a05-af2e-469540b25d73/BBOriginals_2023_Plex_Stacked_WHTrdx.png"
+      "logo": "https://provider-static.plex.tv/epg/cms/production/a69341a2-fce3-4a05-af2e-469540b25d73/BBOriginals_2023_Plex_Stacked_WHTrdx.png",
+      "logoBackground": "dark"
     },
     {
       "id": "cgtn-documentary",
@@ -897,7 +915,8 @@
       "urls": [
         "https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8"
       ],
-      "logo": "https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png"
+      "logo": "https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png",
+      "logoBackground": "dark"
     },
     {
       "id": "terra-mater-wild",
@@ -957,7 +976,8 @@
       "urls": [
         "https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/94Pq9Io.png"
+      "logo": "https://i.imgur.com/94Pq9Io.png",
+      "logoBackground": "dark"
     },
     {
       "id": "china-travel",
@@ -969,7 +989,8 @@
       "urls": [
         "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8"
       ],
-      "logo": "https://i.imgur.com/vSgY3CD.png"
+      "logo": "https://i.imgur.com/vSgY3CD.png",
+      "logoBackground": "dark"
     },
     {
       "id": "al-jazeera-english",
@@ -1031,7 +1052,8 @@
       "urls": [
         "https://bloomberg.com/media-manifest/streams/eu.m3u8"
       ],
-      "logo": "https://i.imgur.com/R7FCaB5.png"
+      "logo": "https://i.imgur.com/R7FCaB5.png",
+      "logoBackground": "dark"
     },
     {
       "id": "cgtn",
@@ -1103,7 +1125,8 @@
       "urls": [
         "https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8"
       ],
-      "logo": "https://i.imgur.com/H2hD4vT.png"
+      "logo": "https://i.imgur.com/H2hD4vT.png",
+      "logoBackground": "dark"
     },
     {
       "id": "outersphere",
@@ -1115,7 +1138,8 @@
       "urls": [
         "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8"
       ],
-      "logo": "https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png"
+      "logo": "https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png",
+      "logoBackground": "dark"
     },
     {
       "id": "rakuten-action-movies",
@@ -1127,7 +1151,8 @@
       "urls": [
         "https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8"
       ],
-      "logo": "https://i.imgur.com/Meew6eX.png"
+      "logo": "https://i.imgur.com/Meew6eX.png",
+      "logoBackground": "dark"
     },
     {
       "id": "rakuten-comedy-movies",
@@ -1139,7 +1164,8 @@
       "urls": [
         "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8"
       ],
-      "logo": "https://i.imgur.com/Meew6eX.png"
+      "logo": "https://i.imgur.com/Meew6eX.png",
+      "logoBackground": "dark"
     },
     {
       "id": "rakuten-drama-movies",
@@ -1151,7 +1177,8 @@
       "urls": [
         "https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8"
       ],
-      "logo": "https://i.imgur.com/Meew6eX.png"
+      "logo": "https://i.imgur.com/Meew6eX.png",
+      "logoBackground": "dark"
     },
     {
       "id": "rakuten-family-movies",
@@ -1163,7 +1190,8 @@
       "urls": [
         "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8"
       ],
-      "logo": "https://i.imgur.com/Meew6eX.png"
+      "logo": "https://i.imgur.com/Meew6eX.png",
+      "logoBackground": "dark"
     },
     {
       "id": "rakuten-top-movies",
@@ -1175,7 +1203,8 @@
       "urls": [
         "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8"
       ],
-      "logo": "https://i.imgur.com/Meew6eX.png"
+      "logo": "https://i.imgur.com/Meew6eX.png",
+      "logoBackground": "dark"
     },
     {
       "id": "mytime-movie-network",
@@ -1187,7 +1216,8 @@
       "urls": [
         "https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/pw4NZK1.png"
+      "logo": "https://i.imgur.com/pw4NZK1.png",
+      "logoBackground": "dark"
     },
     {
       "id": "hallmark-movies-and-more",
@@ -1211,7 +1241,8 @@
       "urls": [
         "https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/5pOZQB4.png"
+      "logo": "https://i.imgur.com/5pOZQB4.png",
+      "logoBackground": "dark"
     },
     {
       "id": "circle",
@@ -1235,7 +1266,8 @@
       "urls": [
         "https://lonestar-rakuten.amagi.tv/playlist.m3u8"
       ],
-      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png"
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png",
+      "logoBackground": "dark"
     },
     {
       "id": "mystery-tv",
@@ -1247,7 +1279,8 @@
       "urls": [
         "https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/K4gwstM.png"
+      "logo": "https://i.imgur.com/K4gwstM.png",
+      "logoBackground": "dark"
     },
     {
       "id": "the-graham-norton-show",
@@ -1259,7 +1292,8 @@
       "urls": [
         "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8"
       ],
-      "logo": "https://images.pluto.tv/channels/66e06576abec540008cc17a9/colorLogoPNG.png"
+      "logo": "https://images.pluto.tv/channels/66e06576abec540008cc17a9/colorLogoPNG.png",
+      "logoBackground": "dark"
     },
     {
       "id": "wipeout-xtra",
@@ -1295,7 +1329,8 @@
       "urls": [
         "https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/QJtwJoS.png"
+      "logo": "https://i.imgur.com/QJtwJoS.png",
+      "logoBackground": "dark"
     },
     {
       "id": "undercover-boss",
@@ -1307,7 +1342,8 @@
       "urls": [
         "https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u8"
       ],
-      "logo": "https://i.imgur.com/O9lwu23.png"
+      "logo": "https://i.imgur.com/O9lwu23.png",
+      "logoBackground": "dark"
     }
   ]
 }
