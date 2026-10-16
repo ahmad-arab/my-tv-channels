@@ -1,511 +1,1313 @@
 {
-  "version": 1,
+  "version": 2,
+  "groups": [
+    {
+      "id": "kurdish",
+      "name": "Kurdish"
+    },
+    {
+      "id": "arabic",
+      "name": "Arabic"
+    },
+    {
+      "id": "english",
+      "name": "English"
+    },
+    {
+      "id": "news",
+      "name": "News"
+    },
+    {
+      "id": "documentary",
+      "name": "Documentary"
+    },
+    {
+      "id": "movies",
+      "name": "Movies"
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment"
+    },
+    {
+      "id": "religious",
+      "name": "Religious"
+    }
+  ],
   "channels": [
     {
       "id": "rudaw",
       "name": "Rudaw",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "news"
+      ],
       "urls": [
         "https://live.rudaw.net/hls/rudaw-tv/master.m3u8",
         "https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/Zo3IWOn.png"
     },
     {
       "id": "kurdistan24",
       "name": "Kurdistan 24",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "news"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/9QWs2ms.png"
     },
     {
       "id": "kurdsat-news",
       "name": "Kurdsat News",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "news"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/F3XRwkt.png"
     },
     {
       "id": "kurdsat",
       "name": "Kurdsat",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/UAbSwYA.png"
     },
     {
       "id": "kurdistan-tv",
       "name": "Kurdistan TV",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
       "urls": [
         "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/mjQptpc.png"
     },
     {
       "id": "channel-8",
       "name": "Channel 8",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "news"
+      ],
       "urls": [
         "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8"
-      ]
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"
     },
     {
       "id": "payam-tv",
       "name": "Payam TV",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "news"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/qySEibb.png"
     },
     {
       "id": "zagros-tv",
       "name": "Zagros TV",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/9Mspf32.png"
     },
     {
       "id": "waar-tv",
       "name": "Waar TV",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/rK0y02d.png"
     },
     {
       "id": "cira-tv",
       "name": "Cira TV",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/YFnmSLW.png"
     },
     {
       "id": "al-iraqia-kurdish",
       "name": "Al Iraqia Kurdish",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "news",
+        "entertainment"
+      ],
       "urls": [
         "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8"
-      ]
+      ],
+      "logo": "https://gateway.esite-lab.com/file-storage/api/v1/public/uploads/2025/3/8/7a8a2548d8e5850e87066d2e573796189.png"
     },
     {
       "id": "trt-kurdi",
       "name": "TRT Kurdi",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment",
+        "documentary"
+      ],
       "urls": [
         "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8"
-      ]
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/960px-TRT_Kurd%C3%AE_logo.svg.png"
     },
     {
       "id": "rojava-tv",
       "name": "Rojava TV",
-      "group": "Kurdish",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
       "urls": [
         "https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8"
+      ],
+      "logo": "https://i.imgur.com/42noysO.png"
+    },
+    {
+      "id": "amozhgary-tv",
+      "name": "Amozhgary TV",
+      "groups": [
+        "kurdish",
+        "religious"
+      ],
+      "urls": [
+        "https://app-live.org/live/3268334b/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/sseqFsO.png"
+    },
+    {
+      "id": "farmoda-tv",
+      "name": "Farmoda TV",
+      "groups": [
+        "kurdish",
+        "religious"
+      ],
+      "urls": [
+        "https://avr.host247.net/live/FarmodaTV/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/x4KCQlH.png"
+    },
+    {
+      "id": "mix-kurdy",
+      "name": "Mix Kurdy",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
+      "urls": [
+        "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/WHeH5i7.png"
+    },
+    {
+      "id": "eman-tv",
+      "name": "Eman TV",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
+      "urls": [
+        "https://avr.host247.net/live/emantv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/QmgaPSi.png"
+    },
+    {
+      "id": "kurd-channel",
+      "name": "Kurd Channel",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
+      "urls": [
+        "https://kurdchhls.wns.live/hls/stream.m3u8"
+      ],
+      "logo": "https://i.imgur.com/xPwzad9.png"
+    },
+    {
+      "id": "4kurd",
+      "name": "4Kurd",
+      "groups": [
+        "kurdish",
+        "entertainment"
+      ],
+      "urls": [
+        "https://4kuhls.persiana.live/hls/stream.m3u8"
       ]
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
         "https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8",
         "https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8"
-      ]
+      ],
+      "logo": "https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540"
     },
     {
       "id": "al-jazeera-mubasher",
       "name": "Al Jazeera Mubasher",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/DfJI4t5.png"
     },
     {
       "id": "alhadath",
       "name": "Al Hadath",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
         "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/De4SEWE.png"
     },
     {
       "id": "alarabiya",
       "name": "Al Arabiya",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
         "https://av.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://shahid.mbc.net/mediaObject/a4c125db-ede8-4970-9eed-963948c78651?height=auto&width=512&croppingPoint=&version=1&type=png"
     },
     {
       "id": "skynewsarabia",
       "name": "Sky News Arabia",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8",
         "https://stream.skynewsarabia.com/hls/sna.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/SvjU4h6.png"
     },
     {
       "id": "asharq-news",
       "name": "Asharq News",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live-news.asharq.com/asharq.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/bqRC3sl.png"
     },
     {
       "id": "al-araby",
       "name": "Al Araby",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/YMqWEe4.png"
     },
     {
       "id": "al-iraqia-news",
       "name": "Al Iraqia News",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/feQTXeZ.jpg"
     },
     {
       "id": "al-sharqiya-news",
       "name": "Al Sharqiya News",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://indexforce.com/newshighres/mystream/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/PeAcXB9.png"
     },
     {
       "id": "france-24-arabic",
       "name": "France 24 Arabic",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8"
-      ]
+      ],
+      "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/France%2024.png"
     },
     {
       "id": "dw-arabic",
       "name": "DW Arabic",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8"
-      ]
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png"
     },
     {
       "id": "trt-arabi",
       "name": "TRT Arabi",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://tv-trtarabi.medya.trt.com.tr/master.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/dEfI2M9.png"
     },
     {
       "id": "al-ekhbariya",
       "name": "Al Ekhbariya",
-      "group": "Arabic News",
+      "groups": [
+        "arabic",
+        "news"
+      ],
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/WcRlHQm.png"
     },
     {
       "id": "al-jazeera-documentary",
       "name": "Al Jazeera Documentary",
-      "group": "Documentary · Arabic",
+      "groups": [
+        "arabic",
+        "documentary"
+      ],
       "urls": [
         "https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8",
         "https://live-hls-web-ajd.getaj.net/AJD/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/5dNJlLo.png"
     },
     {
       "id": "asharq-documentary",
       "name": "Asharq Documentary",
-      "group": "Documentary · Arabic",
+      "groups": [
+        "arabic",
+        "documentary"
+      ],
       "urls": [
         "https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/v6VsFEt.png"
     },
     {
       "id": "asharq-discovery",
       "name": "Asharq Discovery",
-      "group": "Documentary · Arabic",
+      "groups": [
+        "arabic",
+        "documentary"
+      ],
       "urls": [
         "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/Czxi7yk.png"
     },
     {
       "id": "al-arabiya-programs",
       "name": "Al Arabiya Programs",
-      "group": "Documentary · Arabic",
+      "groups": [
+        "arabic",
+        "documentary"
+      ],
       "urls": [
         "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/Hoc3cfO.png"
     },
     {
       "id": "saudi-thaqafiya",
       "name": "Saudi Thaqafiya",
-      "group": "Documentary · Arabic",
+      "groups": [
+        "arabic",
+        "documentary"
+      ],
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8"
-      ]
+      ],
+      "logo": "https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg"
     },
     {
       "id": "oman-cultural",
       "name": "Oman Cultural",
-      "group": "Documentary · Arabic",
+      "groups": [
+        "arabic",
+        "documentary"
+      ],
       "urls": [
         "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8"
-      ]
-    },
-    {
-      "id": "bbc-earth",
-      "name": "BBC Earth",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "documentary-plus",
-      "name": "Documentary+",
-      "group": "Documentary · English",
-      "urls": [
-        "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "documentary-plus-international",
-      "name": "Documentary+ International",
-      "group": "Documentary · English",
-      "urls": [
-        "https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "history-hit",
-      "name": "History Hit",
-      "group": "Documentary · English",
-      "urls": [
-        "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "autentic-history",
-      "name": "Autentic History",
-      "group": "Documentary · English",
-      "urls": [
-        "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "wedo-big-stories",
-      "name": "Wedo Big Stories",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg00735-videosolutionsa-wedobigdocs-ono/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "docubay",
-      "name": "DocuBay",
-      "group": "Documentary · English",
-      "urls": [
-        "https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "cna-originals",
-      "name": "CNA Originals",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "bloomberg-originals",
-      "name": "Bloomberg Originals",
-      "group": "Documentary · English",
-      "urls": [
-        "https://bloomberg.com/media-manifest/streams/qt.m3u8"
-      ]
-    },
-    {
-      "id": "cgtn-documentary",
-      "name": "CGTN Documentary",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8"
-      ]
-    },
-    {
-      "id": "waterbear",
-      "name": "WaterBear",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "terra-mater-wild",
-      "name": "Terra Mater WILD",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "wildearth",
-      "name": "WildEarth",
-      "group": "Documentary · English",
-      "urls": [
-        "https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8"
-      ]
-    },
-    {
-      "id": "inwild",
-      "name": "INWILD",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "love-the-planet",
-      "name": "Love The Planet",
-      "group": "Documentary · English",
-      "urls": [
-        "https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "adventure-earth",
-      "name": "Adventure Earth",
-      "group": "Documentary · English",
-      "urls": [
-        "https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8"
-      ]
-    },
-    {
-      "id": "china-travel",
-      "name": "China Travel",
-      "group": "Documentary · English",
-      "urls": [
-        "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/b38wNPK.png"
     },
     {
       "id": "mbc-iraq",
       "name": "MBC Iraq",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/D0LxiPE.png"
     },
     {
       "id": "mbc-1",
       "name": "MBC 1",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/CiA3plN.png"
     },
     {
       "id": "al-iraqia",
       "name": "Al Iraqia",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/8qQouTW.jpg"
     },
     {
       "id": "al-sharqiya",
       "name": "Al Sharqiya",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/m4qheI4.png"
     },
     {
       "id": "al-rasheed",
       "name": "Al Rasheed",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/ltyRjPK.png"
     },
     {
       "id": "al-saudiya",
       "name": "Al Saudiya",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/GRQTndk.png"
     },
     {
       "id": "qatar-tv",
       "name": "Qatar TV",
-      "group": "Arabic General",
+      "groups": [
+        "arabic",
+        "entertainment"
+      ],
       "urls": [
         "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/N5RB4sp.png"
+    },
+    {
+      "id": "saudi-quran",
+      "name": "Saudi Quran",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8"
+      ],
+      "logo": "https://aloula.faulio.com/storage/mediagallery/da/6c/fullhd_7eaf7e165c4cad5b3a45eff65d2011e18be5d670.png"
+    },
+    {
+      "id": "saudi-sunnah",
+      "name": "Saudi Sunnah",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8"
+      ],
+      "logo": "https://aloula.faulio.com/storage/mediagallery/33/92/fullhd_879e557011826f507a045b4e0b4c3b57ba93edae.png"
+    },
+    {
+      "id": "qatar-holy-quran",
+      "name": "Qatar Holy Quran",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8"
+      ],
+      "logo": "https://www.qmc.qa/img/LiveChannels/1ca67a44-9290-4b2a-8a16-d8c6e2260816.jpg"
+    },
+    {
+      "id": "iqraa",
+      "name": "Iqraa",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/HPVsIa4.png"
+    },
+    {
+      "id": "iqraa-quran",
+      "name": "Iqraa Quran",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/HPVsIa4.png"
+    },
+    {
+      "id": "iqraa-europe-and-africa",
+      "name": "Iqraa Europe & Africa",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/nUlZvSe.png"
+    },
+    {
+      "id": "bahrain-quran",
+      "name": "Bahrain Quran",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/er5hOK4.png"
+    },
+    {
+      "id": "makkah-tv",
+      "name": "Makkah TV",
+      "groups": [
+        "arabic",
+        "religious"
+      ],
+      "urls": [
+        "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8"
+      ],
+      "logo": "https://i.ibb.co/r2k71w5N/download.png"
+    },
+    {
+      "id": "aflam",
+      "name": "Aflam",
+      "groups": [
+        "arabic",
+        "movies"
+      ],
+      "urls": [
+        "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/cTLj7Yt.png"
+    },
+    {
+      "id": "movies-action",
+      "name": "Movies Action",
+      "groups": [
+        "arabic",
+        "movies"
+      ],
+      "urls": [
+        "https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/NIVhISa.png"
+    },
+    {
+      "id": "movies-thriller",
+      "name": "Movies Thriller",
+      "groups": [
+        "arabic",
+        "movies"
+      ],
+      "urls": [
+        "https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/JWihdcl.png"
+    },
+    {
+      "id": "mbc-plus-drama",
+      "name": "MBC+ Drama",
+      "groups": [
+        "arabic",
+        "movies",
+        "entertainment"
+      ],
+      "urls": [
+        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/lxWdjXG.png"
+    },
+    {
+      "id": "mix-hollywood",
+      "name": "Mix Hollywood",
+      "groups": [
+        "arabic",
+        "movies"
+      ],
+      "urls": [
+        "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/1ENdbZn.png"
+    },
+    {
+      "id": "mbc-4",
+      "name": "MBC 4",
+      "groups": [
+        "arabic",
+        "entertainment",
+        "movies"
+      ],
+      "urls": [
+        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/BcXASJp.png"
+    },
+    {
+      "id": "mbc-drama",
+      "name": "MBC Drama",
+      "groups": [
+        "arabic",
+        "entertainment",
+        "movies"
+      ],
+      "urls": [
+        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/g5PWnqp.png"
+    },
+    {
+      "id": "bbc-earth",
+      "name": "BBC Earth",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/nGSsUd4.png"
+    },
+    {
+      "id": "documentary-plus",
+      "name": "Documentary+",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/x57klfS.png"
+    },
+    {
+      "id": "documentary-plus-international",
+      "name": "Documentary+ International",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/x57klfS.png"
+    },
+    {
+      "id": "history-hit",
+      "name": "History Hit",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/ulHoqlP.png"
+    },
+    {
+      "id": "autentic-history",
+      "name": "Autentic History",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/fVyTIbZ.png"
+    },
+    {
+      "id": "wedo-big-stories",
+      "name": "Wedo Big Stories",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg00735-videosolutionsa-wedobigdocs-ono/playlist.m3u8"
+      ],
+      "logo": "https://provider-static.plex.tv/epg/cms/production/49cf6309-0a4a-4d39-bdcc-fa48e4ef84a7/WEDOBIGSTORIES_LIGHTTHEME_-_Sorin_Stoian.png"
+    },
+    {
+      "id": "docubay",
+      "name": "DocuBay",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/OGyeLLR.png"
+    },
+    {
+      "id": "cna-originals",
+      "name": "CNA Originals",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png"
+    },
+    {
+      "id": "bloomberg-originals",
+      "name": "Bloomberg Originals",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://bloomberg.com/media-manifest/streams/qt.m3u8"
+      ],
+      "logo": "https://provider-static.plex.tv/epg/cms/production/a69341a2-fce3-4a05-af2e-469540b25d73/BBOriginals_2023_Plex_Stacked_WHTrdx.png"
+    },
+    {
+      "id": "cgtn-documentary",
+      "name": "CGTN Documentary",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8"
+      ],
+      "logo": "https://i.imgur.com/JHv0WxM.png"
+    },
+    {
+      "id": "waterbear",
+      "name": "WaterBear",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8"
+      ],
+      "logo": "https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png"
+    },
+    {
+      "id": "terra-mater-wild",
+      "name": "Terra Mater WILD",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/EbMK3Ph.png"
+    },
+    {
+      "id": "wildearth",
+      "name": "WildEarth",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8"
+      ],
+      "logo": "https://i.imgur.com/Vhv5gjN.png"
+    },
+    {
+      "id": "inwild",
+      "name": "INWILD",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8"
+      ],
+      "logo": "https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png"
+    },
+    {
+      "id": "love-the-planet",
+      "name": "Love The Planet",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/RBcD49X.png"
+    },
+    {
+      "id": "adventure-earth",
+      "name": "Adventure Earth",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/94Pq9Io.png"
+    },
+    {
+      "id": "china-travel",
+      "name": "China Travel",
+      "groups": [
+        "english",
+        "documentary"
+      ],
+      "urls": [
+        "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/vSgY3CD.png"
     },
     {
       "id": "al-jazeera-english",
       "name": "Al Jazeera English",
-      "group": "English News",
+      "groups": [
+        "english",
+        "news"
+      ],
       "urls": [
         "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
         "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8"
-      ]
+      ],
+      "logo": "https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540"
     },
     {
       "id": "france-24-english",
       "name": "France 24 English",
-      "group": "English News",
+      "groups": [
+        "english",
+        "news"
+      ],
       "urls": [
         "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8"
-      ]
+      ],
+      "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/France%2024.png"
     },
     {
       "id": "dw-english",
       "name": "DW English",
-      "group": "English News",
+      "groups": [
+        "english",
+        "news"
+      ],
       "urls": [
         "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
         "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8"
-      ]
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png"
     },
     {
       "id": "trt-world",
       "name": "TRT World",
-      "group": "English News",
+      "groups": [
+        "english",
+        "news"
+      ],
       "urls": [
         "https://tv-trtworld.medya.trt.com.tr/master.m3u8"
-      ]
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"
     },
     {
       "id": "bloomberg-tv",
       "name": "Bloomberg TV",
-      "group": "English News",
+      "groups": [
+        "english",
+        "news"
+      ],
       "urls": [
         "https://bloomberg.com/media-manifest/streams/eu.m3u8"
-      ]
+      ],
+      "logo": "https://i.imgur.com/R7FCaB5.png"
     },
     {
       "id": "cgtn",
       "name": "CGTN",
-      "group": "English News",
+      "groups": [
+        "english",
+        "news"
+      ],
       "urls": [
         "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8"
-      ]
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png"
+    },
+    {
+      "id": "peace-tv-english",
+      "name": "Peace TV English",
+      "groups": [
+        "english",
+        "religious"
+      ],
+      "urls": [
+        "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
+      ],
+      "logo": "https://i.imgur.com/rjgCM2B.png"
+    },
+    {
+      "id": "huda-tv",
+      "name": "Huda TV",
+      "groups": [
+        "english",
+        "religious"
+      ],
+      "urls": [
+        "https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8"
+      ],
+      "logo": "https://i.imgur.com/1UUjU26.png"
+    },
+    {
+      "id": "moviesphere",
+      "name": "MovieSphere",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/0sfk3yp.png"
+    },
+    {
+      "id": "moviesphere-uk",
+      "name": "MovieSphere UK",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/0sfk3yp.png"
+    },
+    {
+      "id": "gravitas-movies",
+      "name": "Gravitas Movies",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8"
+      ],
+      "logo": "https://i.imgur.com/H2hD4vT.png"
+    },
+    {
+      "id": "outersphere",
+      "name": "OuterSphere",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8"
+      ],
+      "logo": "https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png"
+    },
+    {
+      "id": "rakuten-action-movies",
+      "name": "Rakuten Action Movies",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8"
+      ],
+      "logo": "https://i.imgur.com/Meew6eX.png"
+    },
+    {
+      "id": "rakuten-comedy-movies",
+      "name": "Rakuten Comedy Movies",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8"
+      ],
+      "logo": "https://i.imgur.com/Meew6eX.png"
+    },
+    {
+      "id": "rakuten-drama-movies",
+      "name": "Rakuten Drama Movies",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8"
+      ],
+      "logo": "https://i.imgur.com/Meew6eX.png"
+    },
+    {
+      "id": "rakuten-family-movies",
+      "name": "Rakuten Family Movies",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8"
+      ],
+      "logo": "https://i.imgur.com/Meew6eX.png"
+    },
+    {
+      "id": "rakuten-top-movies",
+      "name": "Rakuten Top Movies",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8"
+      ],
+      "logo": "https://i.imgur.com/Meew6eX.png"
+    },
+    {
+      "id": "mytime-movie-network",
+      "name": "MyTime Movie Network",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/pw4NZK1.png"
+    },
+    {
+      "id": "hallmark-movies-and-more",
+      "name": "Hallmark Movies & More",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709"
+      ],
+      "logo": "https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png"
+    },
+    {
+      "id": "artflix-movie-classics",
+      "name": "ARTFLIX Movie Classics",
+      "groups": [
+        "english",
+        "movies"
+      ],
+      "urls": [
+        "https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/5pOZQB4.png"
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://circle-roku.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png"
+    },
+    {
+      "id": "lone-star",
+      "name": "Lone Star",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://lonestar-rakuten.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png"
+    },
+    {
+      "id": "mystery-tv",
+      "name": "Mystery TV",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/K4gwstM.png"
+    },
+    {
+      "id": "the-graham-norton-show",
+      "name": "The Graham Norton Show",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://images.pluto.tv/channels/66e06576abec540008cc17a9/colorLogoPNG.png"
+    },
+    {
+      "id": "wipeout-xtra",
+      "name": "Wipeout Xtra",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/UDeCRW1.png"
+    },
+    {
+      "id": "young-hollywood",
+      "name": "Young Hollywood",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/X27MGHd.png"
+    },
+    {
+      "id": "stories-by-amc",
+      "name": "Stories by AMC",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/QJtwJoS.png"
+    },
+    {
+      "id": "undercover-boss",
+      "name": "Undercover Boss",
+      "groups": [
+        "english",
+        "entertainment"
+      ],
+      "urls": [
+        "https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u8"
+      ],
+      "logo": "https://i.imgur.com/O9lwu23.png"
     }
   ]
 }
